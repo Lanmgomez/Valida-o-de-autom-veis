@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de automóveis</title>
+</head>
+    <script src="javascript.js"></script>
+
+<body>
+    <main>
+        <form action="#">
+            <fieldset name="label-name1">
+                <legend> Identificação do usuário: </legend>
+                    <p> <label for="Nome"> Nome: </label>  
+                        <input type="text" id="usuario1" size="50" maxlength="50" placeholder="Nome do usuário...">  </p>
+
+                    <p> <label for="CPF"> CPF: </label>
+                        <input type="text" id="cpf" size="15" maxlength="11" placeholder="Ex: 000.000.000-00">  </p>
+                        
+                    <p> <label for="date"> Data de Nascimento: </label>
+                            <input type="date">   </p>   
+                            
+                    <p> <label for="automovel"> Selecione o automóvel: </label> 
+                        <select name="marcas" id="marcas">
+                            <option value="" selected> </option>
+                            <option value="Honda Civic - R$ 134.900,00"> Honda Civic - R$ 134.900,00 </option>
+                            <option value="Renault Sandero - R$ 73.090,00"> Renault Sandero - R$ 73.090,00 </option>
+                            <option value="Mobilete - R$ 2.422,00"> Mobilete - R$ 2.422,00 </option>
+                            <option value="Yamaha Fazer 150 - R$ 9.990,00"> Yamaha Fazer 150 - R$ 9.990,00 </option>
+                            <option value="Fiat Uno - R$ 45.890"> Fiat Uno - R$ 45.890 </option>
+                        </select>  </p> 
+                     
+                    <input type="button" value="Solicitar Avaliação" onclick="Avaliar()">    
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
+
